@@ -4,7 +4,7 @@
     * [设计](zh-cn/design.md)
     * [评测](zh-cn/benchmark.md)
 
-* 使用指南
+* 用户指南
     * [面向使用者](zh-cn/for-user.md)
     * [面向开发者](zh-cn/for-developer.md)
 
