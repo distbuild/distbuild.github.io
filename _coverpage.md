@@ -4,7 +4,7 @@ A distributed build service
 
 
 
-### [Get Started](https://github.com/distbuild/distbuild.github.io/blob/main/en-us/quick-start.md)
+### [Get Started](en-us/quick-start)
 
 
 
