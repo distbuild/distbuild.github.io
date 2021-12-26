@@ -4,7 +4,7 @@ A distributed build service
 
 
 
-### [Get Started](#quick-start)
+### [Get Started](en-us/quick-start)
 
 
 

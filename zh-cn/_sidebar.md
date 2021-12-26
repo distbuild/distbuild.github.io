@@ -1,18 +1,18 @@
 * 概览
-    * [介绍](introduction.md)
-    * [快速开始](quick-start.md)
-    * [设计](design.md)
-    * [评测](benchmark.md)
+    * [介绍](zh-cn/introduction.md)
+    * [快速开始](zh-cn/quick-start.md)
+    * [设计](zh-cn/design.md)
+    * [评测](zh-cn/benchmark.md)
 
 * 使用指南
-    * [面向使用者](for-user.md)
-    * [面向开发者](for-developer.md)
+    * [面向使用者](zh-cn/for-user.md)
+    * [面向开发者](zh-cn/for-developer.md)
 
 * 接口参考
-    * [CLI](cli.md)
-    * [REST](rest.md)
-    * [RPC](rpc.md)
+    * [CLI](zh-cn/cli.md)
+    * [REST](zh-cn/rest.md)
+    * [RPC](zh-cn/rpc.md)
 
 * 外部资源
-    * [Ninja Build](ninja-build.md)
-    * [Remote Execution API](remote-execution-api.md)
+    * [Ninja Build](zh-cn/ninja-build.md)
+    * [Remote Execution API](zh-cn/remote-execution-api.md)
