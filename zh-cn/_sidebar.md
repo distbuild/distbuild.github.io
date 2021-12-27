@@ -1,6 +1,6 @@
 * 概览
     * [介绍](zh-cn/introduction.md)
-    * [快速开始](zh-cn/quick-start.md)
+    * [开始](zh-cn/quick-start.md)
     * [设计](zh-cn/design.md)
     * [评测](zh-cn/benchmark.md)
 
