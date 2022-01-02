@@ -5,8 +5,8 @@
     * [评测](zh-cn/benchmark.md)
 
 * 用户指南
-    * [面向使用者](zh-cn/for-user.md)
-    * [面向开发者](zh-cn/for-developer.md)
+    * [使用者](zh-cn/for-user.md)
+    * [开发者](zh-cn/for-developer.md)
 
 * 接口参考
     * [CLI](zh-cn/cli.md)
