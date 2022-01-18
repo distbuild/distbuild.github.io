@@ -1,4 +1,4 @@
-# distbuild <small>1.0</small>
+# distbuild <small>0.1</small>
 
 A distributed build service
 
