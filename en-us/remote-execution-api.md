@@ -2,10 +2,10 @@
 
 
 
-## Repository
+## Repo
 
-```
-https://github.com/bazelbuild/remote-apis
+```bash
+git clone https://github.com/bazelbuild/remote-apis.git
 ```
 
 
@@ -14,32 +14,13 @@ https://github.com/bazelbuild/remote-apis
 
 - **remote**
 
-  - **asset**
+  - [asset](https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/remote/asset/v1/remote_asset.proto)
 
-    ```
-    https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/remote/asset/v1/remote_asset.proto
-    ```
-
+  - [execution](https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/remote/execution/v2/remote_execution.proto)
   
-
-  - **execution**
-
-    ```
-    https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/remote/execution/v2/remote_execution.proto
-    ```
-
-  
-
-  - **logstream**
-
-    ```
-    https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/remote/logstream/v1/remote_logstream.proto
-    ```
-
-
+  - [logstream](https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/remote/logstream/v1/remote_logstream.proto)
 
 - **semver**
 
-  ```
-  https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/semver/semver.proto
-  ```
+  - [semver](https://github.com/bazelbuild/remote-apis/blob/main/build/bazel/semver/semver.proto)
+
