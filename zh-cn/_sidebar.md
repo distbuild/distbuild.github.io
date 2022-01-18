@@ -9,9 +9,9 @@
     * [开发者](zh-cn/for-developer.md)
 
 * 接口参考
-    * [CLI](zh-cn/cli.md)
+    * [gRPC](zh-cn/grpc.md)
+    * [REAPI](zh-cn/reapi.md)
     * [REST](zh-cn/rest.md)
-    * [RPC](zh-cn/rpc.md)
 
 * 外部资源
     * [Ninja Build](zh-cn/ninja-build.md)

@@ -9,9 +9,9 @@
   * [For Developer](en-us/for-developer.md)
 
 * API Reference
-  * [CLI](en-us/cli.md)
+  * [gRPC](en-us/grpc.md)
+  * [REAPI](en-us/reapi.md)
   * [REST](en-us/rest.md)
-  * [RPC](en-us/rpc.md)
 
 * Extras Resources
   * [Ninja Build](en-us/ninja-build.md)
