@@ -4,13 +4,13 @@
 
 ## **特性**
 
-- **Clients**
+- **客户端**
 
   ![clients](../static/overview/benchmark/features/clients.png)
 
 
 
-- **Servers**
+- **服务端**
 
   ![servers](../static/overview/benchmark/features/servers.png)
 
@@ -18,12 +18,12 @@
 
 ## **性能**
 
-- **Clients**
+- **客户端**
 
   TBD
 
 
 
-- **Servers**
+- **服务端**
 
   TBD
