@@ -4,4 +4,4 @@
 
 ## Client
 
-![overview](../static/client.png)
+![overview](../static/overview/design/client.png)
