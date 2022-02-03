@@ -1,6 +1,7 @@
 * Overview
   * [Introduction](en-us/introduction.md)
   * [Quick Start](en-us/quick-start.md)
+  * [Demo](en-us/demo.md)
   * [Design](en-us/design.md)
   * [Benchmark](en-us/benchmark.md)
 
