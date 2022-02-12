@@ -5,7 +5,7 @@
   * [日志](zh-cn/release-notes.md)
 
 * 指南
-  * [架构](zh-cn/architecture.md)
+  * [架构](zh-cn/architeture.md)
   * [接口](zh-cn/apis.md)
 
 * 评测
