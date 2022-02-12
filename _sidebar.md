@@ -5,7 +5,7 @@
   * [Release Notes](en-us/release-notes.md)
 
 * Guides
-  * [Architeture](en-us/architeture.md)
+  * [Architecture](en-us/architecture.md)
   * [APIs](en-us/apis.md)
 
 * Benchmark
