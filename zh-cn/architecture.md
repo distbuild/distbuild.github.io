@@ -4,4 +4,4 @@
 
 ## 客户端
 
-![overview](../static/guides/architecture/client.png)
+![client](../static/guides/architecture/client.png)

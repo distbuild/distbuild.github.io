@@ -5,12 +5,12 @@
   * [Release Notes](en-us/release-notes.md)
 
 * Guides
-  * [Architeture](en-us/architeture.md)
+  * [Architecture](en-us/architecture.md)
   * [APIs](en-us/apis.md)
 
 * Benchmark
-  * [features](en-us/features.md)
-  * [performance](en-us/performance.md)
+  * [Features](en-us/features.md)
+  * [Performance](en-us/performance.md)
 
 * References
   * [Ninja Build](en-us/ninja-build.md)
