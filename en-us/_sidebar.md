@@ -1,19 +1,17 @@
 * Overview
   * [Introduction](en-us/introduction.md)
   * [Quick Start](en-us/quick-start.md)
-  * [Demo](en-us/demo.md)
-  * [Design](en-us/design.md)
-  * [Benchmark](en-us/benchmark.md)
+  * [Install](en-us/install.md)
+  * [Release Notes](en-us/release-notes.md)
 
-* Use Guides
-  * [For User](en-us/for-user.md)
-  * [For Developer](en-us/for-developer.md)
+* Guides
+  * [Architeture](en-us/architeture.md)
+  * [APIs](en-us/apis.md)
 
-* API Reference
-  * [gRPC](en-us/grpc.md)
-  * [REAPI](en-us/reapi.md)
-  * [REST](en-us/rest.md)
+* Benchmark
+  * [features](en-us/features.md)
+  * [performance](en-us/performance.md)
 
-* Extras Resources
+* References
   * [Ninja Build](en-us/ninja-build.md)
   * [Remote Execution API](en-us/remote-execution-api.md)
