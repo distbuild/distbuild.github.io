@@ -13,5 +13,4 @@
   * [性能](zh-cn/performance.md)
 
 * 参考
-  * [Ninja Build](zh-cn/ninja-build.md)
   * [Remote Execution API](zh-cn/remote-execution-api.md)

@@ -13,5 +13,4 @@
   * [Performance](en-us/performance.md)
 
 * References
-  * [Ninja Build](en-us/ninja-build.md)
   * [Remote Execution API](en-us/remote-execution-api.md)
