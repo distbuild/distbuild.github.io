@@ -6,6 +6,7 @@
 
 * Guides
   * [Architecture](en-us/architecture.md)
+  * [Diagram](en-us/diagram.md)
   * [APIs](en-us/apis.md)
 
 * Benchmark
