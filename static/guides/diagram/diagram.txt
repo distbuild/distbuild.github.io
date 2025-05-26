@@ -1,0 +1,44 @@
+sequenceDiagram
+    actor Admin
+    actor User/Pipeline
+
+    participant bootstrap
+    participant distbuild
+    participant consul
+
+    participant soong
+    participant wrapper
+    participant distninja
+    participant proxy
+
+    participant agent
+    participant worker
+    participant clone
+    participant repo
+
+    Admin->consul: 部署服务
+
+    User/Pipeline->bootstrap: 初始配置
+    bootstrap->distbuild: 更新仓库（$AOSP/build）
+    bootstrap->distninja: 部署工具（$HOME/.distbuild/bin）
+    bootstrap->proxy: 启动服务（$HOME/.distbuild/bin）
+    bootstrap->agent: 启动服务（$HOME/.distbuild/bin）
+
+    agent->consul: 注册服务
+    consul->agent: 发现服务
+    agent->consul: 上报状态
+    agent->worker: 启动服务
+    worker->clone: 启动拉取
+    clone->repo: 更新仓库（$HOME/.distbuild/workspace）
+
+    User/Pipeline->soong: 启动构建（DISTBUILD_BOONG_WRAPPER=true）
+    soong->wrapper: 拦截构建
+    wrapper->distninja: 分析依赖
+    wrapper->proxy: 生成依赖
+    proxy->consul: 获取状态
+    proxy->worker: 编排节点
+    worker->repo: 运行构建
+    repo->worker: 返回目标
+    worker->proxy: 上报目标
+    proxy->wrapper: 链接目标
+    wrapper->soong: 生成镜像
