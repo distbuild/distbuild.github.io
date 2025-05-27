@@ -19,17 +19,17 @@ sequenceDiagram
     Admin->consul: 部署服务
 
     User/Pipeline->bootstrap: 初始配置
-    bootstrap->distbuild: 更新仓库（$AOSP/build）
-    bootstrap->distninja: 部署工具（$HOME/.distbuild/bin）
-    bootstrap->proxy: 启动服务（$HOME/.distbuild/bin）
-    bootstrap->agent: 启动服务（$HOME/.distbuild/bin）
+    bootstrap->distbuild: 更新仓库
+    bootstrap->distninja: 部署工具
+    bootstrap->proxy: 启动服务
+    bootstrap->agent: 启动服务
 
     agent->consul: 注册服务
     consul->agent: 发现服务
     agent->consul: 上报状态
     agent->worker: 启动服务
     worker->clone: 启动拉取
-    clone->repo: 更新仓库（$HOME/.distbuild/workspace）
+    clone->repo: 更新仓库
 
     User/Pipeline->soong: 启动构建（DISTBUILD_BOONG_WRAPPER=true）
     soong->wrapper: 拦截构建
