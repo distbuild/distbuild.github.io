@@ -2,29 +2,29 @@
 
 
 
-## Overview
+## 概述
 
-distbuild is compatible with remote caching and remote execution servers that comply with the [Remote Execution API](https://github.com/bazelbuild/remote-apis) standard ("REAPI"). The REAPI protocol is supported by several different server and client projects including Bazel.
+distbuild 兼容符合[Remote Execution API](https://github.com/bazelbuild/remote-apis) 标准（"REAPI"）的远程缓存和远程执行服务器。REAPI 协议由多个不同的服务器和客户端项目支持，包括 Bazel。
 
-REAPI servers implement several related but distinct services:
+REAPI 服务器实现几个相关但不同的服务：
 
-- A "content-addressable storage" service that stores data keyed by the hash of that data (also known as a "CAS").
+- "content-addressable storage"内容可寻址存储服务，用于存储以数据哈希值为键的数据（也称为"CAS"）。
 
-- An "action cache service"  that maps process executions to their results
-- An "execution service" that executes processes by using the content-addressable storage service to obtain the inputs and store the outputs from running  those processes.
+- "action cache service"操作缓存服务，将进程执行映射到其结果
+- "execution service"执行服务，通过使用内容可寻址存储服务获取输入并存储运行这些进程的输出来执行进程。
 
-Remote cache servers implement the CAS and action cache services. Remote execution servers implement all three services.
+远程缓存服务器实现 CAS 和操作缓存服务。远程执行服务器实现所有三个服务。
 
-The REAPI model contains the notion of an "instance." An "instance" is a distinct deployment of a CAS and/or execution service that is given a specific name. All REAPI operations send an instance name to the server, thus a single network endpoint can conceivably support multiple REAPI deployments.
-
-
-
-## Test
-
-The [remote-apis-testing project](https://gitlab.com/remote-apis-testing/remote-apis-testing) maintains a compatibility test suite of the various server and client implementations of REAPI.
+REAPI 模型包含"instance"实例概念。实例是 CAS 和/或执行服务的独特部署，被赋予特定名称。所有 REAPI 操作都向服务器发送实例名称，因此单个网络端点可以支持多个 REAPI 部署。
 
 
 
-## Reference
+## 测试
+
+[remote-apis-testing project](https://gitlab.com/remote-apis-testing/remote-apis-testing) 维护各种 REAPI 服务器和客户端实现的兼容性测试套件。
+
+
+
+## 参考
 
 - https://www.pantsbuild.org/docs/remote-caching-execution

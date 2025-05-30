@@ -15,7 +15,7 @@ REAPI servers implement several related but distinct services:
 
 Remote cache servers implement the CAS and action cache services. Remote execution servers implement all three services.
 
-The REAPI model contains the notion of an "instance." An "instance" is a distinct deployment of a CAS and/or execution service that is given a specific name. All REAPI operations send an instance name to the server, thus a single network endpoint can conceivably support multiple REAPI deployments.
+The REAPI model contains the notion of an "instance". An "instance" is a distinct deployment of a CAS and/or execution service that is given a specific name. All REAPI operations send an instance name to the server, thus a single network endpoint can conceivably support multiple REAPI deployments.
 
 
 
